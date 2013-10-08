@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.colingleeson.androidtemplate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="com.colingleeson.androidtemplate.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.colingleeson.androidtemplate.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!--
+         The following two permissions are not required to use
+	     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+        <!-- NEEDED FOR MAPS -->
+
+        <activity
+            android:name="com.colingleeson.androidtemplate.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.FormActivity"
+            android:label="@string/title_activity_form" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.FormActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.NotifyActivity"
+            android:label="@string/title_activity_notify" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.NotifyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.FragmentTestActivity"
+            android:label="@string/title_activity_fragment" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.FragmentTestActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.WebViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.DialogActivity"
+            android:label="@string/title_activity_dialog" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.DialogActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.OrientationActivity"
+            android:label="@string/title_activity_orientation" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.OrientationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.BasicViewsActivity"
+            android:label="@string/title_activity_basicview" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.BasicViewsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.GalleryActivity"
+            android:label="Gallary Activity" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.GalleryActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.ImageSwitcherActivity"
+            android:label="ImageSwitcher Activity" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.ImageSwitcherActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.GridActivity"
+            android:label="GridView Activity" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.GridActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.MenusActivity"
+            android:label="Menu Activity" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.MenusActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.GoogleMapsActivity"
+            android:label="@string/title_activity_maps" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.MapsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.SlideShowActivity"
+            android:label="@string/title_activity_slide_show" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.SlideShowActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.SlideShowPreferencesActivity"
+            android:label="@string/title_activity_slide_show_preferences" >
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.MapsLocationActivity"
+            android:label="@string/title_activity_maps_location" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.MapsLocationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBA-4FQqtoCK8SNdw8Mk3VYLg00-A8wMyc" />
+
+        <activity
+            android:name="com.colingleeson.androidtemplate.ServiceActivity"
+            android:label="@string/title_activity_service" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.ServiceActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.colingleeson.androidtemplate.ServiceTest" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.ServiceTest" />
+            </intent-filter>
+        </service>
+        <service android:name="com.colingleeson.androidtemplate.ServiceIntentTest" >
+        </service>
+
+        <activity
+            android:name="com.colingleeson.androidtemplate.ThreadingActivity"
+            android:label="@string/title_activity_threading" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.ThreadingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.ContentProviderActivity"
+            android:label="@string/title_activity_content_provider" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.ContentProviderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.ProviderActivity"
+            android:label="@string/title_activity_provider" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.ProviderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.colingleeson.androidtemplate.BooksProvider"
+            android:authorities="net.learn2develop.provider.Books" >
+        </provider>
+
+        <activity
+            android:name="com.colingleeson.androidtemplate.SMSActivity"
+            android:label="@string/title_activity_sms"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.SMSActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.colingleeson.androidtemplate.SMSReceiver" >
+            <intent-filter android:priority="100" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.colingleeson.androidtemplate.EmailsActivity"
+            android:label="@string/title_activity_emails" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.EmailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.colingleeson.androidtemplate.NetworkingActivity"
+            android:label="@string/title_activity_networking" >
+            <intent-filter>
+                <action android:name="com.colingleeson.androidtemplate.NetworkingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

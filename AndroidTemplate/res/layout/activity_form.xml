@@ -1,0 +1,96 @@
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    tools:context=".FormActivity" >
+
+
+ 	<!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/name"
+	        android:width="100dp" />
+	    
+  	    <EditText
+	        android:id="@+id/editTextName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPersonName"
+	        android:width="350dp"  />
+	    
+    </TableRow>
+ 
+    <!--  -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+	    	<TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/email" />
+
+		   <EditText
+		        android:id="@+id/editTextEmail"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:inputType="textEmailAddress" />
+
+    </TableRow>
+    
+    <!--  -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/phone" />
+	
+	    <EditText
+	        android:id="@+id/editTextPhone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="phone" />
+    </TableRow>
+ 
+ 
+    <!-- just draw a red line -->
+    <View
+        android:layout_height="2dip"
+        android:background="#FF0000" />
+
+
+   <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_span="2"
+            android:text="@string/save"
+			android:onClick="onClickSave" />
+    </TableRow>
+
+
+</TableLayout >

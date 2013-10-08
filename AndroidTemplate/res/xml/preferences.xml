@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Speed of Slideshow">
+
+        
+        <ListPreference
+            android:key="slideshow_speed"
+            android:title="Speed of Slideshow"
+            android:summary="Define how often updates will be performed"
+            android:defaultValue="1000"
+            android:entries="@array/slideshowSpeed"
+            android:entryValues="@array/slideshowSpeedValues"
+            android:persistent="true"
+        />  
+     
+        
+    </PreferenceCategory>                
+        
+    <PreferenceCategory android:title="Images for Slideshow">
+        
+        <MultiSelectListPreference
+            android:key="key_image_select"
+	        android:dialogTitle="@string/image_select_title"
+	        android:summary=""        
+	        android:title="@string/image_select_title"
+	        android:entries="@array/images"
+	        android:persistent="true"
+	        android:entryValues="@array/images_values"
+	        android:defaultValue="@array/images_default"
+        
+        />
+        
+    </PreferenceCategory>  
+          
+</PreferenceScreen>

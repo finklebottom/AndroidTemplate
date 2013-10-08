@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogActivity" >
+
+     <Button
+        android:id="@+id/btn_dialog_progress1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onClick2"
+        android:text="Click to display a progress dialog" />
+    
+     <Button
+         android:id="@+id/btn_dialog_progress2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="62dp"
+         android:onClick="onClick3"
+         android:text="Click to display a second progress dialog" />
+
+     <Button
+         android:id="@+id/btn_dialog"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/btn_dialog_progress2"
+         android:layout_marginTop="25dp"
+         android:onClick="onClick"
+         android:text="Click to display a dialog" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTemplate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Form string -->
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="save">Save</string>
+
+    <!-- Notify string -->
+    <string name="notifyTitle">Notify Title:</string>
+    <string name="notifyText">Notify Text:</string>
+    <string name="notifyTime">Notify Time (not implemented):</string>
+    <string name="notifyCreate">Create Notification</string>
+
+    <string-array name="templates_array">
+        <item>Form (Views | Shared Preferences | Internal Storage)</item>
+        <item>Notifications (Picker)</item>
+        <item>Web (Action Bar)</item>
+        <item>Fragments</item>
+        <item>Dialogs (Progress)</item>
+        <item>Orientations (Configuration Changes)</item>
+        <item>Basic Views</item>
+        <item>Gallary</item>
+        <item>Image Switcher</item>
+        <item>Grid View</item>
+        <item>Menu</item>
+        <item>Google Maps</item>
+        <item>Slideshow (Assignment #2)</item>
+        <item>Location (Assignment #3)</item>
+        <item>Services</item>
+        <item>Threading</item>
+        <item>Providers</item>
+        <item>Content Providers (User Defined)</item>
+        <item>SMS</item>
+        <item>Emails</item>
+        <item>Networking</item>
+    </string-array>
+
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_google">Google</string>
+    <string name="menu_bookmark">Bookmark</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_orientation">OrientationActivity</string>
+    <string name="title_activity_basicview">BasicViewsActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_slide_show">SlideShowActivity</string>
+    <string name="action_settings">Preferences</string>
+    <string name="action_pause">Pause</string>
+    <string name="title_activity_slide_show_preferences">SlideShowPreferencesActivity</string>
+    <string name="image_select_title">Select Images for Slideshow</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_maps_location">MapsLocationActivity</string>
+    <string name="location_destination">*Input Destination*</string>
+    <string name="title_activity_service_text">ServiceText</string>
+    <string name="title_activity_service_test">ServiceTest</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="title_activity_intent_service">IntentService</string>
+    <string name="title_activity_threading">ThreadingActivity</string>
+    <string name="title_activity_content_provider">ContentProviderActivity</string>
+    <string name="title_activity_provider">ProviderActivity</string>
+    <string name="title_activity_sms">SMSActivity</string>
+    <string name="title_activity_emails">EmailsActivity</string>
+    <string name="title_activity_networking">NetworkingActivity</string>
+
+</resources>

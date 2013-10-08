@@ -1,0 +1,103 @@
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    tools:context=".OrientationActivity" >
+
+
+ 	<!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="No EditText ID given"
+	        android:width="100dp" />
+	    
+  	    <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPersonName"
+	        android:width="350dp"  />
+	    
+    </TableRow>
+    
+    
+     	<!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="EditText ID given"
+	        android:width="100dp" />
+	    
+  	    <EditText
+	        android:id="@+id/editTextName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPersonName"
+	        android:width="350dp"  />
+	    
+    </TableRow>
+    
+         	<!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Restored with Bundle Instance"
+	        android:width="100dp" />
+	    
+  	    <EditText
+	        android:id="@+id/editTextName3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPersonName"
+	        android:width="350dp"  />
+	    
+    </TableRow>
+    
+             	<!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Restored with Configuration Instance"
+	        android:width="100dp" />
+	    
+  	    <EditText
+	        android:id="@+id/editTextName4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPersonName"
+	        android:width="350dp"  />
+	    
+    </TableRow>
+    
+    
+    
+</TableLayout >

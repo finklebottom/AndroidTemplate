@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="slideshowSpeed">
+        <item name="2000">Every 2 seconds</item>
+        <item name="3000">Every 3 seconds</item>
+        <item name="5000">Every 5 seconds</item>
+        <item name="10000">Every 10 seconds</item>
+        <item name="OnTouch">On Touch</item>
+    </string-array>
+
+    <string-array name="slideshowSpeedValues">
+        <item name="2000">2000</item>
+        <item name="3000">3000</item>
+        <item name="5000">5000</item>
+        <item name="10000">10000</item>
+        <item name="OnTouch">999999</item>
+    </string-array>
+
+    <string-array name="images_default">
+        <item name="CMG1">CMG1</item>
+        <item name="CMG2">CMG2</item>
+        <item name="CMG3">CMG3</item>
+        <item name="CMG4">CMG4</item>
+        <item name="CMG5">CMG5</item>
+        <item name="CMG6">CMG6</item>
+        <item name="CMG7">CMG7</item>
+        <item name="CMG8">CMG8</item>
+        <item name="CMG9">CMG9</item>
+        <item name="CMG10">CMG10</item>
+        <item name="CMG11">CMG11</item>
+        <item name="CMG12">CMG12</item>
+    </string-array>
+    
+    <string-array name="images">
+        <item name="CMG1">CMG1</item>
+        <item name="CMG2">CMG2</item>
+        <item name="CMG3">CMG3</item>
+        <item name="CMG4">CMG4</item>
+        <item name="CMG5">CMG5</item>
+        <item name="CMG6">CMG6</item>
+        <item name="CMG7">CMG7</item>
+        <item name="CMG8">CMG8</item>
+        <item name="CMG9">CMG9</item>
+        <item name="CMG10">CMG10</item>
+        <item name="CMG11">CMG11</item>
+        <item name="CMG12">CMG12</item>
+    </string-array>
+    
+   <string-array name="images_values">
+        <item name="CMG1">CMG1</item>
+        <item name="CMG2">CMG2</item>
+        <item name="CMG3">CMG3</item>
+        <item name="CMG4">CMG4</item>
+        <item name="CMG5">CMG5</item>
+        <item name="CMG6">CMG6</item>
+        <item name="CMG7">CMG7</item>
+        <item name="CMG8">CMG8</item>
+        <item name="CMG9">CMG9</item>
+        <item name="CMG10">CMG10</item>
+        <item name="CMG11">CMG11</item>
+        <item name="CMG12">CMG12</item>
+    </string-array>
+    
+    
+</resources>
